@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-container {
+    background: #1F2937;
+    height: 600px;
+    top: 0;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type:none;
+    font-size: 18px;
+    color: #F9FAF8;
+    padding: 25px;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.website {
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-weight: 700;
+    margin: 10px;
+    padding: 12px;
+}
+
+.btn-container {
+    margin: 20px;
+}
+
+.web {
+    margin: 10px;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.btn {
+    width: 20%;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 12px;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-size: 20px;
+    border-color: none;
+}
+
+/* section two */
+.random {
+    background: #E5E7EB;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.random-info {
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.one {
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.reduce-img {
+    width: 300px;
+}
+
+.quotes {
+    height: 200px;
+    background: #E5E7EB;
+}
+
+.future {
+    text-align: center;
+}
+
+.call {
+  height: 200px;
+  background: #3882F6;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px;
+    padding: 30px;
+}
+
+.last-btn {
+    width:20%;
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+    background: #3882F6;
+    color: #F9FAF8;
+    border-radius: 20px;
+    border-color: #E5E7EB;
+    cursor: pointer;
+}
+
+.action {
+    color: #F9FAF8;
+    font-size: 22px;
+}
+
+.copyright {
+    background:#1F2937;
+    height: 100px;
+}
+
+.copy {
+    color: #F9FAF8;
+    font-size: 23px;
+    text-align: center;
+    padding: 30px 0 0 0px;
+}
